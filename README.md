@@ -6,88 +6,127 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://reactjs.org/)
 
-A modern visual website builder with AI-powered design assistance. Build production-ready websites using natural language and intuitive drag-and-drop.
+You don't build great websites because you can picture them in your head.
+You build great websites when the idea, the layout, the copy, and the code all stay in one flow.
 
 <img src="public/land.png" alt="CanvasX Vision Landing" width="800"/>
 </div>
 
 ---
 
-## ✨ Features
+## 😰 The problem
 
-- 🎨 **Infinite Canvas** - Unlimited workspace with precision snap-to-grid
-- 🤖 **AI Agent** - Natural language commands for design modifications
-- ⚡ **Live Preview** - Real-time rendering of your designs
-- 🧩 **Component Library** - Pre-built UI components
-- 📦 **Export Code** - Generate clean React/HTML/Tailwind code
-- 🎭 **Theme System** - Multiple color palettes with instant switching
+Most website builders make you bounce between too many modes: one tool for layout, another for content, another for code, and another for preview.
+
+That breaks the creative flow.
+
+You start with a clear idea, but by the time you finish moving components around, tweaking styles, and checking the output, the product no longer feels like the thing you imagined.
+
+The gap is not creativity.
+The gap is execution friction.
 
 ---
 
-## 🚀 Tech Stack
+## 💡 The solution — CanvasX Vision
+
+CanvasX Vision is an AI-powered visual website builder that keeps the whole process in one place.
+
+It gives you a canvas to design on, an AI assistant to speed up the tedious parts, a live preview to see the result instantly, and exportable code when you are ready to ship.
+
+---
+
+## 🤔 "Can't I just use a normal editor or ask an AI to generate the page?"
+
+Sure, but that usually gives you isolated pieces, not a working build flow.
+
+A prompt can generate code.
+A design tool can arrange blocks.
+A preview can show a page.
+
+CanvasX Vision connects all three so you can go from idea to layout to production-ready output without constantly switching context.
+
+It is not just a generator.
+It is the room where the website gets built.
+
+---
+
+## 🚀 What you get
+
+**🎨 Visual Builder** — drag, place, and shape content on an interactive canvas.
+
+**🤖 AI Assistance** — generate, refine, and adjust pages with natural language.
+
+**⚡ Live Preview** — check changes as you build instead of guessing the output.
+
+**🧩 Component Library** — reuse ready-made UI pieces instead of rebuilding everything.
+
+**📦 Code Export** — turn the final design into clean frontend code.
+
+**🎭 Theme Control** — switch styles and keep the same structure across different looks.
+
+---
+
+## 🎬 What it feels like to use
+
+Open a project.
+Drop in sections.
+Ask the AI to refine the copy or layout.
+Preview the result.
+Export when it is ready.
+
+It is a faster loop from thought to working interface, which is exactly what matters in a hackathon setting.
+
+---
+
+## 🖼️ A look inside CanvasX Vision
+
+The app includes:
+
+- A landing page that introduces the product.
+- A dashboard for managing projects.
+- A builder workspace with canvas, sidebar controls, preview, and export flow.
+- Reusable UI components across the interface.
+
+---
+
+## 🛠️ How it's built
+
+CanvasX Vision is built as a React + TypeScript app with a modern frontend stack.
 
 - React 18 + TypeScript
-- Vite 7
+- Vite
 - Tailwind CSS
 - shadcn/ui + Radix UI
 - Framer Motion
-- Tambo AI
 - @dnd-kit
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Run it locally
 
 ```bash
-# Clone repository
 git clone https://github.com/PiyushDevCoder/CanvasX-Vision.git
 cd CanvasX-Vision
-
-# Install dependencies
 npm install
-
-# Set up environment variables
-cp .env.example .env
-# Add your VITE_TAMBO_API_KEY to .env
-
-# Start development server
 npm run dev
 ```
 
----
-
-## 📖 Usage
-
-1. **Add Components**: Drag components from the left sidebar onto the canvas
-2. **Customize**: Use the right sidebar to adjust properties
-3. **AI Assistance**: Press `Cmd/Ctrl + K` for AI commands
-4. **Export**: Click "Export" to generate code
+If you need environment values, copy `.env.example` to `.env` and fill in your local keys.
 
 ---
 
-## 📜 Scripts
-
-```bash
-npm run dev       # Start development server
-npm run build     # Build for production
-npm run preview   # Preview production build
-npm test          # Run tests
-```
-
----
-
-## 📁 Project Structure
+## 📁 Project structure
 
 ```
 CanvasX-Vision/
 ├── src/
 │   ├── components/
-│   │   ├── builder/          # Canvas builder components
-│   │   ├── landing/          # Landing page
-│   │   └── ui/               # UI components (shadcn/ui)
-│   ├── contexts/             # React contexts
-│   ├── lib/                  # Utilities
-│   └── pages/                # Page components
+│   │   ├── builder/          # Builder workspace UI
+│   │   ├── landing/          # Marketing and hero sections
+│   │   └── ui/               # Reusable UI primitives
+│   ├── contexts/             # React context providers
+│   ├── lib/                  # Helpers, generators, storage
+│   └── pages/                # App routes
 └── public/                   # Static assets
 ```
 
@@ -95,12 +134,12 @@ CanvasX-Vision/
 
 ## 📝 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
 
-Made with ❤️ by the CanvasX Vision Team
+Built for the OpenAI × NamasteDev Codex Hackathon.
 
 </div>
