@@ -227,9 +227,7 @@ User request: ${userPrompt}
 
 Use the modify_element tool to make the requested changes to this element.`;
 
-      await sendThreadMessage(contextMessage, {
-        streamResponse: true,
-      });
+      await sendThreadMessage(contextMessage);
     } catch (error) {
       // Clear timeout since we're handling the error
       if (processingTimeoutRef.current) {
