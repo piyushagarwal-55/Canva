@@ -1,6 +1,6 @@
 <div align="center">
 
-# CanvasX
+# CanvasX Vision
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
@@ -8,14 +8,14 @@
 
 A modern visual website builder with AI-powered design assistance. Build production-ready websites using natural language and intuitive drag-and-drop.
 
-<img src="public/land.png" alt="CanvasX Landing" width="800"/>
+<img src="public/land.png" alt="CanvasX Vision Landing" width="800"/>
 </div>
 
 ---
 
 ## ✨ Features
 
-- 🎨 **Infinite CanvasX** - Unlimited workspace with precision snap-to-grid
+- 🎨 **Infinite Canvas** - Unlimited workspace with precision snap-to-grid
 - 🤖 **AI Agent** - Natural language commands for design modifications
 - ⚡ **Live Preview** - Real-time rendering of your designs
 - 🧩 **Component Library** - Pre-built UI components
@@ -40,8 +40,8 @@ A modern visual website builder with AI-powered design assistance. Build product
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/canvasx.git
-cd canvasx
+git clone https://github.com/PiyushDevCoder/CanvasX-Vision.git
+cd CanvasX-Vision
 
 # Install dependencies
 npm install
@@ -79,7 +79,7 @@ npm test          # Run tests
 ## 📁 Project Structure
 
 ```
-canvasx/
+CanvasX-Vision/
 ├── src/
 │   ├── components/
 │   │   ├── builder/          # Canvas builder components
@@ -101,6 +101,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 <div align="center">
 
-Made with ❤️ by the CanvasX Team
+Made with ❤️ by the CanvasX Vision Team
 
 </div>
